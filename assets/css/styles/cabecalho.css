@@ -1,0 +1,25 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.menu__links{
+    color: #667085;
+    margin-right: 2rem;
+}
+
+button{
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    color: #667085;
+    font-size: .9rem;
+}
+
+.btn__cadastrar{
+    background-color: #8E2424;
+    color: #FFFFFF;
+}
