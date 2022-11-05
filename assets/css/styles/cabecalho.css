@@ -3,10 +3,11 @@
     justify-content: space-around;
     align-items: center;
     padding: 1rem 0;
+    font-weight: 500;
 }
 
 .menu__links{
-    color: #667085;
+    color: var(--cor-texto);
     margin-right: 2rem;
 }
 
@@ -15,11 +16,11 @@ button{
     cursor: pointer;
     border-radius: 0.5rem;
     font-weight: 500;
-    color: #667085;
+    color: var(--cor-texto);
     font-size: .9rem;
 }
 
 .btn__cadastrar{
-    background-color: #8E2424;
-    color: #FFFFFF;
+    background-color: var(--cor-vermelho);
+    color: var(--cor-branco);
 }

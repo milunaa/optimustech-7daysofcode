@@ -2,7 +2,13 @@
 
 
 @import url("./styles/cabecalho.css");
+@import url("./styles/sobreNos.css");
 
+:root{
+    --cor-texto: #667085;
+    --cor-vermelho: #8E2424;
+    --cor-branco: #FFFFFF;
+}
 
 *{
     box-sizing: border-box;
