@@ -15,6 +15,7 @@
 .sobre__nos-titulo{
     font-size: 3rem;
     font-weight: 600;
+    color: var(--cor-preto);
 }
 
 .sobre__nos-texto{

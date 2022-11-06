@@ -1,0 +1,31 @@
+.metricas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 3rem;
+    padding: 0 8rem;
+    margin-top: 4rem;
+}
+
+.metricas__item{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.metricas__item-numero{
+    color: var(--cor-vermelho);
+    font-size: 3.75rem;
+    font-weight: 600;
+}
+
+.metricas__item-titulo{
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: var(--cor-preto);
+}
+
+.metricas__item-texto{
+    color: var(--cor-texto);
+    line-height: 150%;
+    font-size: 1rem;
+}
