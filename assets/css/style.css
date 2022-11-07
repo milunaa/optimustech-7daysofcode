@@ -4,6 +4,7 @@
 @import url("./styles/cabecalho.css");
 @import url("./styles/sobreNos.css");
 @import url("./styles/metricas.css");
+@import url("./styles/talentos.css");
 
 :root{
     --cor-texto: #667085;

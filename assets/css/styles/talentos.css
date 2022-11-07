@@ -1,0 +1,34 @@
+.talentos{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem; 
+   padding: 10rem 0;
+}
+
+.talentos__span{
+    background-color: rgba(142, 36, 36, 0.05);
+    color: var(--cor-vermelho);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.talentos__titulo{
+    font-size: 2.25rem;
+    color: var(--cor-preto);
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.talentos__texto{
+    color: var(--cor-texto);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.talentos__imagem{
+    margin-top: 3rem;
+    width: 80%;
+}
