@@ -1,0 +1,31 @@
+.vagas__principal{
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.vaga{
+    border: 1px solid var(--cor-borda);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.vaga__titulo{
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.vaga__informacoes{
+    margin-top: 1.75rem;
+    font-size: 90%;
+    color: var(--cor-texto);
+    display: flex;
+    gap: 2rem;
+}

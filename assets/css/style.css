@@ -5,12 +5,14 @@
 @import url("./styles/sobreNos.css");
 @import url("./styles/metricas.css");
 @import url("./styles/talentos.css");
+@import url("./styles/vagas.css");
 
 :root{
     --cor-texto: #667085;
     --cor-vermelho: #8E2424;
     --cor-branco: #FFFFFF;
     --cor-preto: #101828;
+    --cor-borda: #EAECF0;
 }
 
 *{
