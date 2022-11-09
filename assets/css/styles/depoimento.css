@@ -1,0 +1,41 @@
+.depoimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    margin: 8rem auto;
+    background-color: rgba(196, 25, 25, 0.03);
+    padding: 3rem 2rem;
+}
+
+.depoimento__span{
+    color: var(--cor-vermelho);
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.depoimento__titulo{
+    color: var(--cor-preto);
+    font-weight: 500;
+    font-size: 1.75rem;
+    text-align: center;
+    max-width: 70%;
+    margin: 1rem 0;
+}
+
+.depoimento__avatar{
+    width: 48px;
+}
+
+.depoimento__nome{
+    color: var(--cor-preto);
+    margin: 0.5rem 0;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.depoimento__cargo{
+    color: var(--cor-texto);
+    font-weight: 400;
+    font-size: 0.875rem;
+}
