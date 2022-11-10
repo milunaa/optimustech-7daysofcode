@@ -7,6 +7,7 @@
 @import url("./styles/talentos.css");
 @import url("./styles/vagas.css");
 @import url("./styles/depoimento.css");
+@import url("./styles/rodape.css");
 
 :root{
     --cor-texto: #667085;
@@ -14,6 +15,9 @@
     --cor-branco: #FFFFFF;
     --cor-preto: #101828;
     --cor-borda: #EAECF0;
+    --cor-rodape: #F9FAFB;
+    --cor-rodape-input: #D0D5DD;
+    --cor-rodape-direitos: #98A2B3;;
 }
 
 *{
