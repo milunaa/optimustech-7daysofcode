@@ -3,7 +3,8 @@
    flex-direction: column;
    align-items: center;
    gap: 1rem; 
-   padding: 10rem 0;
+   padding: 0 1rem;
+   padding-top: 8rem;
 }
 
 .talentos__span{
@@ -19,16 +20,17 @@
     font-size: 2.25rem;
     color: var(--cor-preto);
     font-weight: 600;
-    margin-bottom: 0.75rem;
+    text-align: center;
 }
 
 .talentos__texto{
     color: var(--cor-texto);
     font-size: 1.25rem;
     font-weight: 400;
+    text-align: center;
 }
 
 .talentos__imagem{
-    margin-top: 3rem;
+    margin-top: 2rem;
     width: 80%;
 }

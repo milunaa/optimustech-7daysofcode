@@ -1,9 +1,38 @@
 .cabecalho{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1rem 2rem;
     font-weight: 500;
+}
+
+.sideMenu{
+    display: none;
+    visibility: hidden;
+}
+
+.sideMenu__hamburger{
+    position: relative;
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+  }
+
+.menu__itens{
+    display: flex;
+    align-items: center;
+}
+
+.menu.active{
+    right: 0;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    transition: all .5s;
 }
 
 .menu__links{

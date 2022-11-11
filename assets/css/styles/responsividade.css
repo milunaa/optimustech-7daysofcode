@@ -1,0 +1,78 @@
+@media screen and (max-width: 920px) {
+    .metricas {
+      padding: 0 4rem;
+    }
+  }
+  
+  @media screen and (max-width: 850px) {
+    .metricas {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .metricas__item {
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+  
+    .metricas__item-texto {
+      max-width: 280px;
+      text-align: center;
+    }
+  
+    .sobre__nos-texto {
+      max-width: 70%;
+    }
+  
+    .vaga {
+      max-width: 70%;
+    }
+    
+    .vagas__principal {
+      max-width: 70%;
+    }
+  
+    .depoimento__titulo {
+      max-width: 100%;
+      font-size: 120%;
+    }
+  
+    /* Ajustes de menu aqui */
+  
+    .sideMenu {
+      display: initial;
+      visibility: visible;
+    }
+  
+    .menu__itens {
+      margin: 2rem 0;
+    }
+  
+    .menu__links {
+      margin-right: 0;
+    }
+  
+    .menu {
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -1000px;
+        height: 100vh;
+        background: #F9FAFB;
+        width: 15rem;
+        padding: 2rem;
+        transition: all 2s;
+      }
+
+      .menu .menu__itens{
+        gap: 2rem;
+      }
+
+      .menu .menu__itens, .menu .btn, .menu .btn__cadastrar{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+  }

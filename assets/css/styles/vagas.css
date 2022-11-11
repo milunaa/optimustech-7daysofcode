@@ -1,3 +1,7 @@
+.vagas{
+    padding-top: 4rem;
+}
+
 .vagas__principal{
     display: block;
     max-width: 50%;
@@ -23,7 +27,7 @@
 }
 
 .vaga__informacoes{
-    margin-top: 1.75rem;
+    margin-top: 1rem;
     font-size: 90%;
     color: var(--cor-texto);
     display: flex;
